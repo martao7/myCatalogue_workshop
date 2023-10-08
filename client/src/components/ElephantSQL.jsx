@@ -7,7 +7,7 @@ function Books() {
 
   const fetchBooks = () => {
     axios
-      .get("https://catal.onrender.com/posts")
+      .get("https://catalog-sdkr.onrender.com/posts")
       .then((response) => {
         setBooks(response.data);
       })
@@ -21,7 +21,7 @@ function Books() {
   }, []);
 
   const handleDelete = async (bookId) => {
-    await axios.delete(`https://catal.onrender.com/posts/${bookId}`);
+    await axios.delete(`https://catalog-sdkr.onrender.com/posts/${bookId}`);
     setBooks((prevBooks) => prevBooks.filter((book) => book.id !== bookId));
     alert("Book is successfully deleted");
   };

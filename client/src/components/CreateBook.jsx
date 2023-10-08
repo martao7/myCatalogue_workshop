@@ -14,7 +14,7 @@ function CreateBook({ setBooks }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://catal.onrender.com/posts", newBook)
+      .post("https://catalog-sdkr.onrender.com/posts", newBook)
       .then((response) => {
         console.log("Success:", response.data);
         alert("Book created successfully!");
