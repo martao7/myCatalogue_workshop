@@ -4,7 +4,7 @@ This application displays a list of books fetched from a backend server. Each bo
 
 ## Live Demo
 
-[Click here to see the live demo!](https://resonant-begonia-262c93.netlify.app/)
+[Click here to see the live demo!](https://my-catalogue-834f93.netlify.app/)
 
 ### Installation
 
