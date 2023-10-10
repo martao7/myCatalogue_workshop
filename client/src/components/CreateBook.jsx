@@ -77,7 +77,9 @@ function CreateBook({ setBooks }) {
         placeholder="Image URL"
         required
       />
-      <button type="submit">Create Book</button>
+      <button type="submit" id="submit">
+        Create Book
+      </button>
     </form>
   );
 }
