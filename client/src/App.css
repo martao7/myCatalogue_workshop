@@ -8,6 +8,15 @@
   position: relative;
 }
 
+
+#root {
+	width: 100vw;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	/* overflow: hidden !important; */
+}
+
 h1{
   background-image: url("https://pixabay.com/get/gadb9fd44e4e952d0f771e067ae769b63fcbed1874409af7c95cf1719f80e0605eccbb83c685b344814bd337d5d6ceb37569856708e0787f7ab3bf1455d2e1331_1920.jpg");
   padding: 30px;
